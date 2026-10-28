@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "lang": "nl",
+    "title": "LEGO® verkopen in Amsterdam | Stackback koopt je LEGO",
+    "description": "Stuur foto's via WhatsApp en krijg binnen 24 uur een eerlijk, vrijblijvend bod op je LEGO®. Gratis ophalen in Amsterdam, direct betaald.",
+    "ogTitle": "Ligt er LEGO® op zolder? Stackback koopt het.",
+    "languageName": "Nederlands",
+    "switchLabel": "English",
+    "skipLink": "Naar de inhoud"
+  },
+  "whatsapp": {
+    "message": "Hoi Stackback! Ik heb LEGO die ik wil verkopen. Hierbij een paar foto's.",
+    "refLabel": "code"
+  },
+  "nav": {
+    "items": [
+      { "label": "Zo werkt het", "href": "#zo-werkt-het" },
+      { "label": "Wat we kopen", "href": "#wat-we-kopen" },
+      { "label": "Ons bod", "href": "#ons-bod" },
+      { "label": "Vragen", "href": "#vragen" }
+    ],
+    "cta": "WhatsApp ons"
+  },
+  "hero": {
+    "lines": ["Ligt er LEGO®", "op zolder?", "Wij kopen het."],
+    "intro": "Stuur een paar foto's via WhatsApp. Binnen 24 uur krijg je een eerlijk bod, helemaal vrijblijvend. Zeg je ja, dan halen we het gratis bij je op en betalen we direct.",
+    "cta": "Stuur foto's via WhatsApp",
+    "secondary": "Zo werkt het",
+    "facts": [
+      "Bod binnen 24 uur",
+      "Gratis ophalen in Amsterdam",
+      "Contant, Tikkie of overboeking"
+    ]
+  },
+  "steps": {
+    "id": "zo-werkt-het",
+    "title": "Zo werkt het",
+    "intro": "Je hoeft niets uit te zoeken, op te bouwen of te tellen. Wij doen het werk.",
+    "items": [
+      {
+        "title": "Stuur foto's",
+        "text": "App ons een paar foto's met je telefoon. Een overzichtsfoto is al genoeg om te beginnen."
+      },
+      {
+        "title": "Krijg je bod",
+        "text": "Binnen 24 uur sturen we een bod, met uitleg hoe we eraan komen. Je zit nergens aan vast."
+      },
+      {
+        "title": "Wij halen het op",
+        "text": "Zeg je ja, dan spreken we een moment af. We kijken het kort na bij je thuis en betalen meteen."
+      }
+    ],
+    "photoLink": "Welke foto's helpen het meest?"
+  },
+  "buy": {
+    "id": "wat-we-kopen",
+    "title": "Wat we kopen",
+    "intro": "Vooral sets en poppetjes. Gebouwd, uit elkaar of nog in de doos, het maakt niet uit.",
+    "items": [
+      {
+        "title": "Complete sets",
+        "text": "Met of zonder doos, gebouwd of in losse onderdelen. Bouwboekjes en de originele doos maken je bod hoger.",
+        "tone": "tangerine"
+      },
+      {
+        "title": "Bijna complete sets",
+        "text": "Mist er hier en daar een steentje? Geen probleem. We rekenen uit wat het kost om de set aan te vullen en trekken alleen dat af.",
+        "tone": "mint"
+      },
+      {
+        "title": "Minifiguren",
+        "text": "We bekijken elk poppetje apart. Sommige zijn los meer waard dan je zou denken, zoals veel Star Wars, Harry Potter en oudere figuren.",
+        "tone": "lilac"
+      },
+      {
+        "title": "Dozen en bakken met losse LEGO",
+        "text": "Interessant als er poppetjes of herkenbare sets tussen zitten. Alleen losse stenen kopen we soms. Stuur gerust een foto, dan zeggen we het eerlijk.",
+        "tone": "butter"
+      },
+      {
+        "title": "Nieuwe, ongeopende sets",
+        "text": "Nog in de verzegelde doos? Die kopen we graag, ook als het om meerdere sets gaat.",
+        "tone": "tangerine"
+      }
+    ],
+    "notTitle": "Wat we niet kopen",
+    "not": "Nagemaakte merken (zoals Lepin, King of andere namaak) en LEGO die kapot, gesmolten of sterk verkleurd is. Twijfel je? Stuur een foto, we kijken altijd even mee."
+  },
+  "pricing": {
+    "id": "ons-bod",
+    "title": "Hoe we je bod bepalen",
+    "intro": "Geen gok op basis van een foto van een bak. We zoeken per set en per poppetje op wat het op dit moment tweedehands opbrengt in Nederland en Europa. Daarna kijken we naar vier dingen:",
+    "factors": [
+      {
+        "title": "Compleetheid",
+        "text": "Ontbreken er onderdelen of poppetjes, en hoeveel kost het om dat aan te vullen?"
+      },
+      {
+        "title": "Doos en bouwboekjes",
+        "text": "Een set met doos en boekjes is duidelijk meer waard dan dezelfde set zonder."
+      },
+      {
+        "title": "Staat",
+        "text": "Krassen, verkleuring, ontbrekende stickers of een beschadigde doos tellen mee."
+      },
+      {
+        "title": "Ons werk en risico",
+        "text": "Wij controleren alles, maken het schoon, vullen sets aan en verkopen ze door. Dat kost tijd, en soms blijkt een set toch niet compleet."
+      }
+    ],
+    "promise": "Je krijgt altijd een bod met uitleg. Wil je precies weten hoe we op een bedrag komen? Vraag het, dan laten we het zien.",
+    "boostTitle": "Zo wordt je LEGO meer waard",
+    "boost": [
+      "Bewaar de bouwboekjes en dozen, ook als ze niet meer mooi zijn.",
+      "Houd de poppetjes bij hun set, als je weet welke bij welke hoort.",
+      "Liever niet zelf schoonmaken met heet water of schoonmaakmiddel. Dat doen wij."
+    ]
+  },
+  "photos": {
+    "id": "fotos",
+    "title": "Welke foto's helpen het meest?",
+    "intro": "Hoe beter we kunnen zien wat je hebt, hoe scherper ons bod. Dit helpt:",
+    "items": [
+      "Eén overzichtsfoto van alles bij elkaar.",
+      "De poppetjes los naast elkaar, van voren gefotografeerd.",
+      "Dozen en bouwboekjes, als je die hebt.",
+      "Setnummers, als je ze weet. Die staan op de doos en op het boekje.",
+      "Bij een bak met losse LEGO: hoe vol hij is, of het gewicht. Een personenweegschaal is prima."
+    ],
+    "note": "Weet je iets niet of heb je geen tijd? Stuur gewoon wat je hebt, wij vragen door als het nodig is."
+  },
+  "about": {
+    "title": "Over Stackback",
+    "text": [
+      "Stackback is opgericht door twee LEGO-liefhebbers uit Amsterdam. We kopen LEGO die thuis stilligt, controleren het, maken sets weer compleet en geven ze door aan nieuwe bouwers.",
+      "Jij hebt je ruimte terug, en jouw LEGO wordt weer gebruikt in plaats van dat het in een doos blijft liggen."
+    ]
+  },
+  "faq": {
+    "id": "vragen",
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Hoeveel is mijn LEGO waard?",
+        "a": "Dat verschilt enorm. Een bak met alleen losse stenen brengt meestal niet zo veel op, terwijl een complete set of een gezocht poppetje soms verrassend veel waard is. Daarom kijken we per set en per poppetje. Stuur foto's, dan weet je het binnen 24 uur."
+      },
+      {
+        "q": "Moet ik alles eerst uitzoeken of opbouwen?",
+        "a": "Nee. Gebouwd, uit elkaar of door elkaar in een bak is allemaal prima. Uitzoeken en controleren is ons werk."
+      },
+      {
+        "q": "Wat als er onderdelen missen?",
+        "a": "Dat is heel normaal. We rekenen uit wat het kost om de set aan te vullen en houden daar rekening mee in ons bod."
+      },
+      {
+        "q": "Zit ik vast aan het bod?",
+        "a": "Nee, ons bod is vrijblijvend en zeven dagen geldig. Voor ons staat het bod, zolang de LEGO overeenkomt met de foto's. Zien we bij het ophalen grote verschillen, bijvoorbeeld ontbrekende poppetjes, dan zeggen we dat eerlijk en mag je altijd nog nee zeggen."
+      },
+      {
+        "q": "Waarom krijg ik niet de volle prijs die ik online zie?",
+        "a": "Online prijzen zijn wat iemand na veel werk uiteindelijk krijgt: alles controleren, fotograferen, advertenties maken, met kopers praten en versturen. Wij nemen dat werk en het risico over en betalen je direct. Wil je het maximale eruit halen en heb je daar de tijd voor, dan kun je het ook zelf online verkopen."
+      },
+      {
+        "q": "Wat doen jullie met mijn LEGO?",
+        "a": "We controleren en schonen alles, maken sets waar nodig compleet en verkopen ze door aan andere bouwers en verzamelaars."
+      },
+      {
+        "q": "Halen jullie ook buiten Amsterdam op?",
+        "a": "Op dit moment halen we gratis op in Amsterdam. Woon je in de buurt? App ons gerust, voor een mooie collectie komen we graag langs."
+      },
+      {
+        "q": "Hoe betalen jullie?",
+        "a": "Direct bij het ophalen: contant, met een Tikkie of per bankoverschrijving. Jij kiest."
+      },
+      {
+        "q": "Kopen jullie ook ander speelgoed of andere bouwstenen?",
+        "a": "Nee, alleen echte LEGO. Namaakmerken kopen we niet."
+      },
+      {
+        "q": "Wat gebeurt er met mijn foto's en gegevens?",
+        "a": "We gebruiken je foto's en telefoonnummer alleen voor jouw bod en de afspraak, en delen niets met anderen. Deze website gebruikt geen cookies en volgt je niet."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar om op te ruimen?",
+    "text": "Stuur een paar foto's. Binnen 24 uur weet je wat je LEGO waard is.",
+    "button": "Stuur foto's via WhatsApp",
+    "phoneLabel": "Of app naar"
+  },
+  "sticky": {
+    "button": "Stuur foto's via WhatsApp"
+  },
+  "footer": {
+    "tagline": "Wij kopen tweedehands LEGO® in Amsterdam.",
+    "contact": "WhatsApp",
+    "kvkLabel": "KvK",
+    "trademark": "LEGO® is een handelsmerk van de LEGO Group. Stackback is een zelfstandig bedrijf en niet verbonden aan of gesponsord door de LEGO Group.",
+    "privacy": "Deze website gebruikt geen cookies en geen tracking."
+  }
+}
