@@ -46,7 +46,7 @@
       "Gratis ophalen in Amsterdam",
       "Contant, Tikkie of overboeking"
     ],
-    "call": "Liever bellen of sms'en?"
+    "call": "Liever bellen of mailen?"
   },
   "steps": {
     "id": "zo-werkt-het",
@@ -202,18 +202,17 @@
     "title": "Klaar om op te ruimen?",
     "text": "Stuur een paar foto's. Binnen 24 uur weet je wat je LEGO waard is.",
     "button": "Stuur foto's via WhatsApp",
-    "phoneLabel": "Liever bellen of sms'en?"
+    "phoneLabel": "Liever bellen of mailen?"
   },
   "sticky": {
     "button": "Stuur foto's via WhatsApp"
   },
   "footer": {
     "tagline": "Wij kopen tweedehands LEGO® in Amsterdam.",
-    "contact": "WhatsApp",
+    "contact": "WhatsApp, bellen of sms",
     "kvkLabel": "KvK",
     "trademark": "LEGO® is een handelsmerk van de LEGO Group. Stackback is een zelfstandig bedrijf en niet verbonden aan of gesponsord door de LEGO Group.",
     "privacy": "Deze website gebruikt geen cookies. Bezoeken tellen we anoniem.",
-    "call": "Bellen of sms",
     "emailLabel": "E-mail",
     "privacyLink": "Privacyverklaring"
   },
@@ -226,7 +225,7 @@
       {
         "h": "Wie zijn wij",
         "p": [
-          "Stackback koopt tweedehands LEGO® van particulieren in Amsterdam en omgeving. Voor vragen over privacy kun je ons appen of bellen op {phone}."
+          "Stackback koopt tweedehands LEGO® van particulieren in Amsterdam en omgeving. Voor vragen over privacy kun je ons appen, bellen of mailen: {phone} of {email}."
         ]
       },
       {
@@ -272,9 +271,12 @@
       {
         "h": "Jouw rechten",
         "p": [
-          "Je mag altijd vragen welke gegevens we van je hebben, en vragen om ze aan te passen of te verwijderen. App of bel ons, dan regelen we het. Ben je het niet eens met hoe we met je gegevens omgaan, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens."
+          "Je mag altijd vragen welke gegevens we van je hebben, en vragen om ze aan te passen of te verwijderen. App, bel of mail ons, dan regelen we het. Ben je het niet eens met hoe we met je gegevens omgaan, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens."
         ]
       }
     ]
+  },
+  "contact": {
+    "or": "of"
   }
 }

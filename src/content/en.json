@@ -46,7 +46,7 @@
       "Free pickup in Amsterdam",
       "Cash, Tikkie or bank transfer"
     ],
-    "call": "Prefer to call or text?"
+    "call": "Prefer to call or email?"
   },
   "steps": {
     "id": "how-it-works",
@@ -202,18 +202,17 @@
     "title": "Ready to clear some space?",
     "text": "Send a few photos. Within 24 hours you'll know what your LEGO is worth.",
     "button": "Send photos on WhatsApp",
-    "phoneLabel": "Prefer to call or text?"
+    "phoneLabel": "Prefer to call or email?"
   },
   "sticky": {
     "button": "Send photos on WhatsApp"
   },
   "footer": {
     "tagline": "We buy second-hand LEGO® in Amsterdam.",
-    "contact": "WhatsApp",
+    "contact": "WhatsApp, call or text",
     "kvkLabel": "Chamber of Commerce",
     "trademark": "LEGO® is a trademark of the LEGO Group. Stackback is an independent business and is not affiliated with or sponsored by the LEGO Group.",
     "privacy": "This website uses no cookies. We count visits anonymously.",
-    "call": "Call or text",
     "emailLabel": "Email",
     "privacyLink": "Privacy statement"
   },
@@ -226,7 +225,7 @@
       {
         "h": "Who we are",
         "p": [
-          "Stackback buys second-hand LEGO® from private individuals in and around Amsterdam. For privacy questions, message or call us on {phone}."
+          "Stackback buys second-hand LEGO® from private individuals in and around Amsterdam. For privacy questions, message, call or email us: {phone} or {email}."
         ]
       },
       {
@@ -272,9 +271,12 @@
       {
         "h": "Your rights",
         "p": [
-          "You can always ask what data we have about you, and ask us to correct or delete it. Message or call us and we'll sort it out. If you disagree with how we handle your data, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens)."
+          "You can always ask what data we have about you, and ask us to correct or delete it. Message, call or email us and we'll sort it out. If you disagree with how we handle your data, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens)."
         ]
       }
     ]
+  },
+  "contact": {
+    "or": "or"
   }
 }

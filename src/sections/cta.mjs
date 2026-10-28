@@ -1,4 +1,4 @@
-import { esc, waAttrs, telHref, icon } from '../lib.mjs';
+import { esc, waAttrs, altContact, icon } from '../lib.mjs';
 
 export default (ctx) => {
   const c = ctx.c.cta;
@@ -11,7 +11,7 @@ export default (ctx) => {
     </div>
     <div class="cta__actions">
       <a class="btn btn--go btn--large" id="final-cta" ${waAttrs(ctx)}>${icon.chat}<span>${esc(c.button)}</span></a>
-      <p class="cta__phone">${esc(c.phoneLabel)} <a href="${telHref(ctx)}">${esc(ctx.config.phoneDisplay)}</a></p>
+      <p class="cta__phone">${altContact(ctx, c.phoneLabel)}</p>
     </div>
   </div>
 </section>`;

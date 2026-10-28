@@ -24,6 +24,13 @@ export const waAttrs = (ctx) =>
 /** Phone link for calling. Same number as WhatsApp (config.whatsappNumber). */
 export const telHref = (ctx) => `tel:+${ctx.config.whatsappNumber}`;
 
+/** "Liever bellen of mailen? 06 … of mail@…": the alternative to WhatsApp. Email part only if set in config. */
+export const altContact = (ctx, label) => {
+  const { config, c } = ctx;
+  const email = config.email ? ` ${esc(c.contact.or)} <a href="mailto:${esc(config.email)}">${esc(config.email)}</a>` : '';
+  return `${esc(label)} <a href="${telHref(ctx)}">${esc(config.phoneDisplay)}</a>${email}`;
+};
+
 /** Inline SVG icons (stroke = currentColor). */
 export const icon = {
   chat: `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4h0A1.5 1.5 0 0 1 4 14.5z"/><path d="M8.5 8.5h7M8.5 11.5h4.5"/></svg>`,

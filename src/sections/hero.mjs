@@ -1,4 +1,4 @@
-import { esc, join, waAttrs, telHref, icon } from '../lib.mjs';
+import { esc, join, waAttrs, altContact, icon } from '../lib.mjs';
 
 // The headline is drawn as a stack of bricks: one coloured slab per line.
 const tones = ['lilac', 'mint', 'tangerine'];
@@ -15,7 +15,7 @@ export default (ctx) => {
       <p class="hero__intro">${esc(h.intro)}</p>
       <div class="hero__actions">
         <a class="btn btn--go btn--large" id="hero-cta" ${waAttrs(ctx)}>${icon.chat}<span>${esc(h.cta)}</span></a>
-        <p class="hero__call">${esc(h.call)} <a href="${telHref(ctx)}">${esc(ctx.config.phoneDisplay)}</a></p>
+        <p class="hero__call">${altContact(ctx, h.call)}</p>
       </div>
       <ul class="facts">
         ${join(h.facts, (f) => `<li>${icon.check}<span>${esc(f)}</span></li>`)}

@@ -4,7 +4,7 @@ import { esc, join } from '../lib.mjs';
 // "{phone}" in the text is replaced by the phone number from config.json.
 export default (ctx) => {
   const p = ctx.c.privacyPage;
-  const fill = (t) => esc(t).replace('{phone}', esc(ctx.config.phoneDisplay));
+  const fill = (t) => esc(t).replace('{phone}', esc(ctx.config.phoneDisplay)).replace('{email}', esc(ctx.config.email));
   return `
 <section class="section legal">
   <div class="wrap legal__inner">

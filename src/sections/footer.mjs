@@ -13,8 +13,7 @@ export default (ctx) => {
     <div>
       <a class="logo" href="${ctx.homeHref}" aria-label="${esc(ctx.config.brand)}">${logoMark}<span class="logo__word">stackback</span></a>
       <p>${esc(f.tagline)}</p>
-      <p>${esc(f.contact)}: <a ${waAttrs(ctx)}>${esc(config.phoneDisplay)}</a></p>
-      <p>${esc(f.call)}: <a href="${telHref(ctx)}">${esc(config.phoneDisplay)}</a></p>
+      <p>${esc(f.contact)}: <a href="${telHref(ctx)}">${esc(config.phoneDisplay)}</a></p>
       ${email}
       ${address}
       ${kvk}
