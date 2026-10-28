@@ -19,7 +19,10 @@ export const waHref = (ctx) =>
 export const waAttrs = (ctx) =>
   `href="${waHref(ctx)}" data-wa data-wa-message="${esc(ctx.c.whatsapp.message)}" data-wa-ref-label="${esc(
     ctx.c.whatsapp.refLabel
-  )}" target="_blank" rel="noopener"`;
+  )}" data-goatcounter-click="whatsapp" target="_blank" rel="noopener"`;
+
+/** Phone link for calling. Same number as WhatsApp (config.whatsappNumber). */
+export const telHref = (ctx) => `tel:+${ctx.config.whatsappNumber}`;
 
 /** Inline SVG icons (stroke = currentColor). */
 export const icon = {

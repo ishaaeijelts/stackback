@@ -3,8 +3,14 @@
   "siteUrl": "https://stackback.nl",
   "whatsappNumber": "31643200250",
   "phoneDisplay": "06 43 20 02 50",
+  "email": "",
+  "address": "",
   "city": "Amsterdam",
   "kvk": "",
-  "languages": ["nl", "en"],
+  "goatcounter": "",
+  "languages": [
+    "nl",
+    "en"
+  ],
   "defaultLanguage": "nl"
 }

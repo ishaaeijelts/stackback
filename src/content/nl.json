@@ -14,23 +14,39 @@
   },
   "nav": {
     "items": [
-      { "label": "Zo werkt het", "href": "#zo-werkt-het" },
-      { "label": "Wat we kopen", "href": "#wat-we-kopen" },
-      { "label": "Ons bod", "href": "#ons-bod" },
-      { "label": "Vragen", "href": "#vragen" }
+      {
+        "label": "Zo werkt het",
+        "href": "#zo-werkt-het"
+      },
+      {
+        "label": "Wat we kopen",
+        "href": "#wat-we-kopen"
+      },
+      {
+        "label": "Ons bod",
+        "href": "#ons-bod"
+      },
+      {
+        "label": "Vragen",
+        "href": "#vragen"
+      }
     ],
     "cta": "WhatsApp ons"
   },
   "hero": {
-    "lines": ["Ligt er LEGO®", "op zolder?", "Wij kopen het."],
+    "lines": [
+      "Ligt er LEGO®",
+      "op zolder?",
+      "Wij kopen het."
+    ],
     "intro": "Stuur een paar foto's via WhatsApp. Binnen 24 uur krijg je een eerlijk bod, helemaal vrijblijvend. Zeg je ja, dan halen we het gratis bij je op en betalen we direct.",
     "cta": "Stuur foto's via WhatsApp",
-    "secondary": "Zo werkt het",
     "facts": [
       "Bod binnen 24 uur",
       "Gratis ophalen in Amsterdam",
       "Contant, Tikkie of overboeking"
-    ]
+    ],
+    "call": "Liever bellen of sms'en?"
   },
   "steps": {
     "id": "zo-werkt-het",
@@ -178,7 +194,7 @@
       },
       {
         "q": "Wat gebeurt er met mijn foto's en gegevens?",
-        "a": "We gebruiken je foto's en telefoonnummer alleen voor jouw bod en de afspraak, en delen niets met anderen. Deze website gebruikt geen cookies en volgt je niet."
+        "a": "We gebruiken je foto's en telefoonnummer alleen voor jouw bod en de afspraak, en delen niets met anderen. Komt er geen deal, dan verwijderen we het gesprek binnen 3 maanden. Meer staat in onze privacyverklaring."
       }
     ]
   },
@@ -186,7 +202,7 @@
     "title": "Klaar om op te ruimen?",
     "text": "Stuur een paar foto's. Binnen 24 uur weet je wat je LEGO waard is.",
     "button": "Stuur foto's via WhatsApp",
-    "phoneLabel": "Of app naar"
+    "phoneLabel": "Liever bellen of sms'en?"
   },
   "sticky": {
     "button": "Stuur foto's via WhatsApp"
@@ -196,6 +212,69 @@
     "contact": "WhatsApp",
     "kvkLabel": "KvK",
     "trademark": "LEGO® is een handelsmerk van de LEGO Group. Stackback is een zelfstandig bedrijf en niet verbonden aan of gesponsord door de LEGO Group.",
-    "privacy": "Deze website gebruikt geen cookies en geen tracking."
+    "privacy": "Deze website gebruikt geen cookies. Bezoeken tellen we anoniem.",
+    "call": "Bellen of sms",
+    "emailLabel": "E-mail",
+    "privacyLink": "Privacyverklaring"
+  },
+  "privacyPage": {
+    "title": "Privacyverklaring",
+    "metaTitle": "Privacyverklaring | Stackback",
+    "updated": "Laatst bijgewerkt: 28 oktober 2026",
+    "back": "Terug naar de homepage",
+    "sections": [
+      {
+        "h": "Wie zijn wij",
+        "p": [
+          "Stackback koopt tweedehands LEGO® van particulieren in Amsterdam en omgeving. Voor vragen over privacy kun je ons appen of bellen op {phone}."
+        ]
+      },
+      {
+        "h": "Welke gegevens we gebruiken",
+        "list": [
+          "Je telefoonnummer en de naam die je in WhatsApp gebruikt.",
+          "De foto's en informatie die je ons stuurt over je LEGO.",
+          "Je adres en het afgesproken moment, als we je LEGO komen ophalen.",
+          "Je naam en rekeningnummer, als je kiest voor betaling per overboeking of Tikkie."
+        ]
+      },
+      {
+        "h": "Waarvoor we ze gebruiken",
+        "p": [
+          "Alleen om je een bod te doen, het ophalen af te spreken, je te betalen en onze administratie bij te houden. We sturen je geen reclame en gebruiken je gegevens niet voor iets anders."
+        ]
+      },
+      {
+        "h": "Waarom dat mag",
+        "p": [
+          "We gebruiken je gegevens omdat dat nodig is om een bod te doen en de verkoop af te ronden (uitvoering van een overeenkomst). Voor gegevens van afgeronde aankopen geldt daarnaast een wettelijke bewaarplicht voor de administratie."
+        ]
+      },
+      {
+        "h": "Hoe lang we ze bewaren",
+        "list": [
+          "Komt er geen deal? Dan verwijderen we het gesprek en de foto's binnen 3 maanden.",
+          "Is er een deal? Dan bewaren we alleen wat nodig is voor de administratie (datum, bedrag en betaalgegevens) zo lang als de wet voorschrijft, meestal 7 jaar. De rest van het gesprek verwijderen we binnen 3 maanden."
+        ]
+      },
+      {
+        "h": "Met wie we ze delen",
+        "p": [
+          "We verkopen of delen je gegevens met niemand. We gebruiken wel diensten die daarbij nodig zijn: WhatsApp (Meta) voor onze gesprekken en de bank of Tikkie voor betalingen. Die verwerken je gegevens volgens hun eigen privacybeleid."
+        ]
+      },
+      {
+        "h": "Deze website",
+        "p": [
+          "Deze website gebruikt geen cookies. We tellen bezoeken anoniem met GoatCounter: welke pagina is bekeken, via welke link of QR-code iemand binnenkwam, en het type apparaat. Daarbij slaan we geen IP-adressen op en kunnen we niemand herkennen."
+        ]
+      },
+      {
+        "h": "Jouw rechten",
+        "p": [
+          "Je mag altijd vragen welke gegevens we van je hebben, en vragen om ze aan te passen of te verwijderen. App of bel ons, dan regelen we het. Ben je het niet eens met hoe we met je gegevens omgaan, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens."
+        ]
+      }
+    ]
   }
 }

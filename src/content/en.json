@@ -14,23 +14,39 @@
   },
   "nav": {
     "items": [
-      { "label": "How it works", "href": "#how-it-works" },
-      { "label": "What we buy", "href": "#what-we-buy" },
-      { "label": "Our offer", "href": "#our-offer" },
-      { "label": "Questions", "href": "#questions" }
+      {
+        "label": "How it works",
+        "href": "#how-it-works"
+      },
+      {
+        "label": "What we buy",
+        "href": "#what-we-buy"
+      },
+      {
+        "label": "Our offer",
+        "href": "#our-offer"
+      },
+      {
+        "label": "Questions",
+        "href": "#questions"
+      }
     ],
     "cta": "WhatsApp us"
   },
   "hero": {
-    "lines": ["Old LEGO®", "in the attic?", "We buy it."],
+    "lines": [
+      "Old LEGO®",
+      "in the attic?",
+      "We buy it."
+    ],
     "intro": "Send us a few photos on WhatsApp. Within 24 hours you get a fair offer, with no obligation. If you say yes, we pick it up for free and pay you on the spot.",
     "cta": "Send photos on WhatsApp",
-    "secondary": "How it works",
     "facts": [
       "Offer within 24 hours",
       "Free pickup in Amsterdam",
       "Cash, Tikkie or bank transfer"
-    ]
+    ],
+    "call": "Prefer to call or text?"
   },
   "steps": {
     "id": "how-it-works",
@@ -178,7 +194,7 @@
       },
       {
         "q": "What happens to my photos and details?",
-        "a": "We only use your photos and phone number for your offer and the pickup, and never share them. This website uses no cookies and doesn't track you."
+        "a": "We only use your photos and phone number for your offer and the pickup, and never share them. If there's no deal, we delete the conversation within 3 months. More in our privacy statement."
       }
     ]
   },
@@ -186,7 +202,7 @@
     "title": "Ready to clear some space?",
     "text": "Send a few photos. Within 24 hours you'll know what your LEGO is worth.",
     "button": "Send photos on WhatsApp",
-    "phoneLabel": "Or message"
+    "phoneLabel": "Prefer to call or text?"
   },
   "sticky": {
     "button": "Send photos on WhatsApp"
@@ -196,6 +212,69 @@
     "contact": "WhatsApp",
     "kvkLabel": "Chamber of Commerce",
     "trademark": "LEGO® is a trademark of the LEGO Group. Stackback is an independent business and is not affiliated with or sponsored by the LEGO Group.",
-    "privacy": "This website uses no cookies and no tracking."
+    "privacy": "This website uses no cookies. We count visits anonymously.",
+    "call": "Call or text",
+    "emailLabel": "Email",
+    "privacyLink": "Privacy statement"
+  },
+  "privacyPage": {
+    "title": "Privacy statement",
+    "metaTitle": "Privacy statement | Stackback",
+    "updated": "Last updated: 28 October 2026",
+    "back": "Back to the homepage",
+    "sections": [
+      {
+        "h": "Who we are",
+        "p": [
+          "Stackback buys second-hand LEGO® from private individuals in and around Amsterdam. For privacy questions, message or call us on {phone}."
+        ]
+      },
+      {
+        "h": "What data we use",
+        "list": [
+          "Your phone number and the name you use on WhatsApp.",
+          "The photos and information you send us about your LEGO.",
+          "Your address and the agreed time, if we come to pick up your LEGO.",
+          "Your name and account number, if you choose payment by bank transfer or Tikkie."
+        ]
+      },
+      {
+        "h": "What we use it for",
+        "p": [
+          "Only to make you an offer, arrange the pickup, pay you and keep our records. We don't send you advertising and don't use your data for anything else."
+        ]
+      },
+      {
+        "h": "Why we're allowed to",
+        "p": [
+          "We use your data because it's needed to make an offer and complete the sale (performance of a contract). For completed purchases, there is also a legal obligation to keep records."
+        ]
+      },
+      {
+        "h": "How long we keep it",
+        "list": [
+          "No deal? We delete the conversation and photos within 3 months.",
+          "A deal? We only keep what our records require (date, amount and payment details) for as long as the law requires, usually 7 years. We delete the rest of the conversation within 3 months."
+        ]
+      },
+      {
+        "h": "Who we share it with",
+        "p": [
+          "We never sell or share your data. We do use services that are needed for this: WhatsApp (Meta) for our conversations and the bank or Tikkie for payments. They process your data under their own privacy policies."
+        ]
+      },
+      {
+        "h": "This website",
+        "p": [
+          "This website uses no cookies. We count visits anonymously with GoatCounter: which page was viewed, which link or QR code someone came from, and the type of device. We don't store IP addresses and can't identify anyone."
+        ]
+      },
+      {
+        "h": "Your rights",
+        "p": [
+          "You can always ask what data we have about you, and ask us to correct or delete it. Message or call us and we'll sort it out. If you disagree with how we handle your data, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens)."
+        ]
+      }
+    ]
   }
 }

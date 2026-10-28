@@ -169,6 +169,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .stack__slab--lilac::after { left: 1.25em; }
 .hero__intro { font-size: var(--step-1); line-height: 1.55; }
 .hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; }
+.hero__call { margin: 0; font-size: var(--step--1); color: var(--ink-soft); }
+.hero__call a { color: var(--ink); font-weight: 700; white-space: nowrap; }
 .facts { display: flex; flex-wrap: wrap; gap: 0.5em 1.6em; padding-top: 18px; border-top: 1px solid var(--line); font-size: var(--step--1); }
 .facts li { display: flex; gap: 0.5em; align-items: center; }
 .facts .icon { color: var(--go); }
@@ -264,6 +266,14 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 @media (max-width: 760px) {
   .footer__inner { grid-template-columns: 1fr; }
 }
+
+/* Privacy page */
+.legal__inner { max-width: 46rem; }
+.legal h1 { font-size: var(--step-3); margin-top: 24px; }
+.legal h2 { font-size: var(--step-2); margin-top: 1.6em; }
+.legal__list { list-style: disc; padding-left: 1.3em; margin-bottom: 1em; }
+.legal__list li { margin-bottom: 0.4em; }
+.footer a { color: inherit; }
 
 /* Sticky WhatsApp bar on phones */
 .sticky { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); background: rgba(255, 255, 255, 0.96); border-top: 1px solid var(--line); transform: translateY(110%); transition: transform 0.25s ease; }

@@ -8,7 +8,7 @@ export default (ctx) => {
   <div class="wrap header__inner">
     <a class="logo" href="${ctx.homeHref}" aria-label="${esc(ctx.config.brand)}">${logoMark}<span class="logo__word">stackback</span></a>
     <nav class="header__nav" aria-label="Menu">
-      ${join(c.nav.items, (i) => `<a href="${i.href}">${esc(i.label)}</a>`)}
+      ${join(c.nav.items, (i) => `<a href="${ctx.anchorBase}${i.href}">${esc(i.label)}</a>`)}
     </nav>
     <div class="header__actions">
       <a class="lang" href="${ctx.otherLangHref}" hreflang="${ctx.otherLang}" lang="${ctx.otherLang}">${esc(c.meta.switchLabel)}</a>

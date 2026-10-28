@@ -1,4 +1,4 @@
-// Assembles one full page. To add, remove or reorder sections, edit SECTIONS.
+// Assembles full pages. To add, remove or reorder homepage sections, edit HOME.
 import { esc } from './lib.mjs';
 import header from './sections/header.mjs';
 import hero from './sections/hero.mjs';
@@ -8,11 +8,20 @@ import pricing from './sections/pricing.mjs';
 import photos from './sections/photos.mjs';
 import faq from './sections/faq.mjs';
 import cta from './sections/cta.mjs';
+import privacy from './sections/privacy.mjs';
 import footer from './sections/footer.mjs';
 
-const MAIN = [hero, steps, buy, pricing, photos, faq, cta];
+const HOME = [hero, steps, buy, pricing, photos, faq, cta];
 
-const head = (ctx) => {
+// Anonymous, cookieless visit counter. Only added when config.goatcounter is filled in.
+// The path includes ?ref=CODE so flyer scans per code show up separately.
+const goatcounter = (code) =>
+  code
+    ? `<script>window.goatcounter = { path: function () { return location.pathname + location.search } }</script>
+  <script data-goatcounter="https://${esc(code)}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`
+    : '';
+
+const head = (ctx, { title, description }) => {
   const { c, config, base } = ctx;
   const url = config.siteUrl + ctx.path;
   const alternates = config.languages
@@ -32,11 +41,10 @@ const head = (ctx) => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${esc(c.meta.title)}</title>
-  <meta name="description" content="${esc(c.meta.description)}">
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(description)}">
   <link rel="canonical" href="${url}">
   ${alternates}
-  <link rel="alternate" hreflang="x-default" href="${config.siteUrl}/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${url}">
   <meta property="og:title" content="${esc(c.meta.ogTitle)}">
@@ -49,19 +57,25 @@ const head = (ctx) => {
   <link rel="preload" href="${base}assets/fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="${base}assets/css/site.css">
   <script>document.documentElement.classList.add('js')</script>
-  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+  ${ctx.kind === 'home' ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : ''}
+  ${goatcounter(config.goatcounter)}
 </head>
 <body>`;
 };
 
-export default (ctx) =>
-  `${head(ctx)}
+const shell = (ctx, meta, sections) =>
+  `${head(ctx, meta)}
 ${header(ctx)}
 <main id="main">
-${MAIN.map((s) => s(ctx)).join('\n')}
+${sections.map((s) => s(ctx)).join('\n')}
 </main>
 ${footer(ctx)}
 <script src="${ctx.base}assets/js/site.js" defer></script>
 </body>
 </html>
 `;
+
+export const homePage = (ctx) => shell(ctx, { title: ctx.c.meta.title, description: ctx.c.meta.description }, HOME);
+
+export const privacyPage = (ctx) =>
+  shell(ctx, { title: ctx.c.privacyPage.metaTitle, description: ctx.c.meta.description }, [privacy]);
