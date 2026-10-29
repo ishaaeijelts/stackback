@@ -150,7 +150,8 @@
     "text": [
       "Stackback is opgericht door twee LEGO-liefhebbers uit Amsterdam. We kopen LEGO die thuis stilligt, controleren het, maken sets weer compleet en geven ze door aan nieuwe bouwers.",
       "Jij hebt je ruimte terug, en jouw LEGO wordt weer gebruikt in plaats van dat het in een doos blijft liggen."
-    ]
+    ],
+    "follow": "Volg ons voor de mooiste vondsten van zolder:"
   },
   "faq": {
     "id": "vragen",
@@ -187,6 +188,10 @@
       {
         "q": "Hoe betalen jullie?",
         "a": "Direct bij het ophalen: contant, met een Tikkie of per bankoverschrijving. Jij kiest."
+      },
+      {
+        "q": "Ik ben jonger dan 18. Kan ik mijn LEGO verkopen?",
+        "a": "Ja, als een van je ouders akkoord is. Dat vragen we even na in de WhatsApp of bij het ophalen. Vaak is de LEGO ooit door je ouders gekocht, dus zo weet iedereen waar hij aan toe is."
       },
       {
         "q": "Kopen jullie ook ander speelgoed of andere bouwstenen?",

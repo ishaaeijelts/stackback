@@ -150,7 +150,8 @@
     "text": [
       "Stackback was founded by two LEGO fans from Amsterdam. We buy LEGO that's gathering dust at home, check it, complete the sets and pass them on to new builders.",
       "You get your space back, and your LEGO gets played with again instead of sitting in a box."
-    ]
+    ],
+    "follow": "Follow us for the best attic finds:"
   },
   "faq": {
     "id": "questions",
@@ -187,6 +188,10 @@
       {
         "q": "How do you pay?",
         "a": "Straight away at pickup: cash, by Tikkie or by bank transfer. Your choice."
+      },
+      {
+        "q": "I'm under 18. Can I sell my LEGO?",
+        "a": "Yes, as long as one of your parents agrees. We'll check that on WhatsApp or at pickup. Often your parents paid for the LEGO once, so this way everyone knows where they stand."
       },
       {
         "q": "Do you buy other toys or other building bricks?",

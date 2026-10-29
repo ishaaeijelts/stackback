@@ -1,4 +1,4 @@
-import { esc, waAttrs, telHref, icon, logoMark } from '../lib.mjs';
+import { esc, waAttrs, telHref, icon, logoMark, socialLinks } from '../lib.mjs';
 
 export default (ctx) => {
   const f = ctx.c.footer;
@@ -17,6 +17,7 @@ export default (ctx) => {
       ${email}
       ${address}
       ${kvk}
+      ${socialLinks(ctx, 'socials--footer')}
       <p><a class="lang" href="${ctx.otherLangHref}" hreflang="${ctx.otherLang}" lang="${ctx.otherLang}">${esc(ctx.c.meta.switchLabel)}</a></p>
     </div>
     <div class="footer__legal">

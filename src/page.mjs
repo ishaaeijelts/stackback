@@ -1,5 +1,5 @@
 // Assembles full pages. To add, remove or reorder homepage sections, edit HOME.
-import { esc } from './lib.mjs';
+import { esc, socials } from './lib.mjs';
 import header from './sections/header.mjs';
 import hero from './sections/hero.mjs';
 import steps from './sections/steps.mjs';
@@ -35,6 +35,8 @@ const head = (ctx, { title, description }) => {
     telephone: '+' + config.whatsappNumber,
     areaServed: config.city,
     description: c.meta.description,
+    email: config.email || undefined,
+    sameAs: socials(ctx).map((s) => s.href),
   };
   return `<!doctype html>
 <html lang="${c.meta.lang}">
@@ -50,6 +52,11 @@ const head = (ctx, { title, description }) => {
   <meta property="og:title" content="${esc(c.meta.ogTitle)}">
   <meta property="og:description" content="${esc(c.meta.description)}">
   <meta property="og:image" content="${config.siteUrl}/assets/brand/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="${c.meta.lang === 'nl' ? 'nl_NL' : 'en_GB'}">
+  <meta property="og:site_name" content="${esc(config.brand)}">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#13213A">
   <link rel="icon" href="${base}assets/brand/logo-mark.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="${base}assets/brand/apple-touch-icon.png">

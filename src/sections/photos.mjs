@@ -1,4 +1,4 @@
-import { esc, join, icon } from '../lib.mjs';
+import { esc, join, icon, socialLinks } from '../lib.mjs';
 
 export default (ctx) => {
   const p = ctx.c.photos;
@@ -18,6 +18,7 @@ export default (ctx) => {
     <div class="about">
       <h2>${esc(a.title)}</h2>
       ${join(a.text, (t) => `<p>${esc(t)}</p>`)}
+      ${socialLinks(ctx) ? `<p class="about__follow">${esc(a.follow)}</p>${socialLinks(ctx, 'socials--about')}` : ''}
     </div>
   </div>
 </section>`;

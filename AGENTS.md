@@ -6,7 +6,7 @@ Static site: homepage + privacy page, NL at `/` and `/privacy/`, EN at `/en/` an
 | Want to change | File |
 |---|---|
 | Any visible text (NL / EN) | `src/content/nl.json`, `src/content/en.json` (same keys in both; change both) |
-| Phone/WhatsApp number, email, address, KvK, GoatCounter code, domain | `src/config.json` (empty fields are hidden on the site) |
+| Phone/WhatsApp number, email, Instagram/TikTok handles, address, KvK, GoatCounter code, domain | `src/config.json` (empty fields are hidden on the site) |
 | Colours, fonts, spacing | `:root` tokens at the top of `public/assets/css/site.css` |
 | Layout/markup of one section | `src/sections/<section>.mjs` (header, hero, steps, buy, pricing, photos, faq, cta, privacy, footer) |
 | Privacy statement text | `privacyPage` in both content JSON files |
